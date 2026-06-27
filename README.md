@@ -14,7 +14,7 @@ Example: JUN R3 -->
 
 ## Introduction
 
-This is a modular development board based on a popular microcontroller, designed for rapid prototyping and educational use. It features flexible power options, modern connectivity, and user-friendly interfaces. An integrated LED matrix allows for simple visual feedback and display.
+This module features the VEML3328,which is a compact 16-bit RGBCIR Color Sensor module incorporating photodiodes, amplifiers, analog/digital circuits into a single CMOS chip. It provides accurate measurement of red, green, blue, clear, and IR light, making it well suited for industrial and consumer applications.
 
 <div align="center">
   <img src="hardware/resources/unit_top_v_1_0_0_ue0128_i2c_veml3328_sensor_light_3d.png" width="450px" alt="Development Board">
