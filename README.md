@@ -1,5 +1,5 @@
 
-# DevLab: [Protocol/Interface] [Chip/Model] [Brief Description][Module/Sensor/Shield/Adapter]
+# DevLab: I2C VEML3328 Sensor Light
 <!-- Exception:
 
 The PULSAR development board line does not use the DevLab: prefix.
@@ -17,7 +17,7 @@ Example: JUN R3 -->
 This is a modular development board based on a popular microcontroller, designed for rapid prototyping and educational use. It features flexible power options, modern connectivity, and user-friendly interfaces. An integrated LED matrix allows for simple visual feedback and display.
 
 <div align="center">
-  <img src="hardware/resources/unit_top_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="450px" alt="Development Board">
+  <img src="hardware/resources/unit_top_v_1_0_0_ue0128_i2c_veml3328_sensor_light_3d.png" width="450px" alt="Development Board">
   <p><em>Development Board</em></p>
 </div>
 
