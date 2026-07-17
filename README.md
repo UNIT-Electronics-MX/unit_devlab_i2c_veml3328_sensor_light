@@ -61,8 +61,8 @@ This module features the VEML3328,which is a compact 16-bit RGBCIR Color Sensor 
 
 ## Resources
 
-- [Schematic Diagram](#)
-- [Pinout Diagram](#)
+- [Schematic Diagram](./hardware/unit_sch_v_1_0_0_ue0128_i2c_veml3328_sensor_light.pdf)
+- [Pinout Diagram](./hardware/unit_pinout_v_1_0_0_ue0128_veml3328_light_sensor_en.pdf)
 - [Getting Started Guide](#)
 
 ## 📝 License
