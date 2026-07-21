@@ -50,7 +50,7 @@
 ## Topology
 
 <div align="center">
-<a href="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png"><img src="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png" width="500px"><br/> Topology</a>
+<a href="./resources/unit_topology_v_1_0_0_ue0128_veml3328_sensor_luz_en.png"><img src="./resources/unit_topology_v_1_0_0_ue0128_veml3328_sensor_luz_en.png" width="500px"><br/> Topology</a>
 <br/>
 <br/>
 <br/>
