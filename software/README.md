@@ -1,25 +1,46 @@
 # Getting Started
 
-Welcome to the project! This guide will help you set up your development environment and start working with the board.
+This section demonstrates how to use the DevLab VEML3328 RGB-IR Color Sensor with the DevLab Pulsar C6 using the Arduino framework.
 
-## Prerequisites
+After completing this guide, you will be able to:
 
-- Ensure you have the required hardware and cables.
-- Install necessary software tools (see [Installation](#installation) below).
+- Install the DevLab VEML3328 library.
+- Connect the sensor using the I²C interface.
+- Read the Red, Green, Blue, IR, and Clear channels.
+- Display the sensor measurements in the Serial Monitor.
 
-## Installation
+## Requirements
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-org/your-project.git
-    ```
-2. Follow the setup instructions in the `docs/` directory.
+### Hardware
+- DevLab Pulsar C6
+- DevLab VEML3328 RGB-IR Color Sensor
+- USB Type-C cable
 
-## Usage
+### Software
+- Arduino IDE
+- DevLab VEML3328 Library
 
-- Connect the board to your computer.
-- Build and flash the firmware as described in the [User Guide](docs/USER_GUIDE.md).
+### Wiring
+The sensor communicates using the I²C bus.
 
-## Support
+<div align="center">
 
-For questions or issues, please open an issue on GitHub.
+| **VEML3328** | **Pulsar C6** |
+|--------------|---------------|
+| VCC          | 3.3 V         |
+| GND          | GND           |
+| SDA          | GPIO 6        |
+| SCL          | GPIO 7        |
+
+
+  <img src="../hardware/resources/img/veml3328-conn.png" width="600px" alt="Development Board">
+  <p><em>Wiring</em></p>
+</div>
+
+# Install the Library
+
+- Open Arduino IDE.
+- Open Library Manager.
+- Search for DevLab VEML3328.
+- Install the latest version.
+
