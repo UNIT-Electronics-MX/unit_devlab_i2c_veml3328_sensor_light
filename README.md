@@ -1,5 +1,5 @@
 
-# DevLab: I2C VEML3328 Sensor Light
+# DevLab: I2C VEML3328 Color Sensor
 
 ## Introduction
 
