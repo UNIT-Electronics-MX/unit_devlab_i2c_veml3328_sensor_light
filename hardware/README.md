@@ -36,11 +36,12 @@
 
 | Ref. | Description                              |
 |------|------------------------------------------|
-| IC1  | {{sensor_description}}                   |
-| L1   | Power On LED                             |
-| U1   | {{regulator_description}}                | 
-| JP1  | 2.54 mm Castellated Holes                |
-| J1   | QWIIC Connector (JST 1 mm pitch) for I2C |
+| U1   | VEML3328 RGBIR Color Sensor              |
+| U2   | AP2112K 3.3 V Low Dropout (LDO) Voltage Regulator  |
+| Q1   | BSS138AKDW Dual Bidirectional I²C Level Shifter    | 
+| LED (D1)  | Power On LED (Red)                  |
+| J1, J3   | QWIIC Connector (JST 1 mm pitch) for I2C |
+| J2   | 2.54 mm Castellated Pin Header           |
 
 </div>
 
@@ -56,11 +57,26 @@
 
 ## Functional Description
 
-{{functional_description}}
+The UNIT I²C VEML3328 Color Sensor is a high-performance RGBIR (Red, Green, Blue, Clear, and Infrared) light-to-digital converter designed for color sensing, ambient light measurement, and spectral analysis applications. The module integrates the VEML3328 color sensor together with an onboard 3.3 V voltage regulator and a bidirectional I²C level shifter, allowing direct interfacing with both 3.3 V and 5 V host systems.
+
+The sensor converts incident light into independent 16-bit digital measurements for the Red, Green, Blue, Clear, and Infrared channels, eliminating the need for external analog signal conditioning. Communication is performed through a standard I²C interface, accessible from either of the onboard QWIIC connectors or the 2.54 mm castellated header, enabling seamless integration into embedded systems and rapid prototyping platforms.
+
+### I²C Communication Interface
+
+The module operates as an I²C slave device using the fixed 7-bit address 0x10 for configuration and data acquisition. All communication is fully bidirectional through the standard I²C protocol.
+
+Device communication can be verified by reading the Device ID Register (0x0C). The lower byte of this register returns 0x28, confirming that the sensor is correctly connected and responding on the I²C bus.
+
+The module may be connected using either of the two onboard QWIIC (JST-SH 1.0 mm) connectors or through the 2.54 mm castellated header, providing flexibility for breadboard prototyping and PCB integration.
+
 
 ## Applications
 
-{{applications_list}}
+- White balancing and color cast correction in digital cameras
+- Automatic LCD backlight adjustment
+- On/Off Light Switching in industrial and consumer applications
+- Monitoring of LED Color output for IoT and smart Lighting’
+
 
 # References
 
